@@ -8,7 +8,7 @@ package com.jaybhagat.snakeladder;
 import java.util.Scanner;
 
 public class SnakeLadder {
-	public static final int WINNING_POSITION = 100;                      // constant
+	public static final int WINNING_POSITION = 100;                        // constant
 
 	public static void main(String[] args) {
 		int startPosition = 0;                                           // initialize startPosition to zero
