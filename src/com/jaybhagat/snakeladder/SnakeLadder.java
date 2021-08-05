@@ -12,7 +12,7 @@ public class SnakeLadder {
 
 	public static void main(String[] args) {
 		int startPosition = 0;                                           // initialize startPosition to zero
-		System.out.print("Enter Your Name : ");                          // 
+		System.out.print("Enter Your Name : ");
 		Scanner scanner = new Scanner(System.in);
 		String playerName = scanner.next();
 		scanner.close();
