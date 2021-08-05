@@ -1,13 +1,15 @@
 package com.jaybhagat.snakeladder;
 
 /*
- * class to print welcome message on the console
+ * class to initialize the game with start position zero
  * @author com.jaybhagat
  */
 
 public class SnakeLadder {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Snake and Ladder Game.");
+		int startPosition = 0;                                        // initialize startPosition to zero
+		System.out.println("Game is for Single Player");
+		System.out.println("Starting Position is: "+startPosition);
 	}
 }
